@@ -1,0 +1,87 @@
+\documentclass[conference]{IEEEtran}
+% \IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{balance}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+% #############################################
+% DOCUMENT
+% #############################################
+
+\begin{document}
+
+\title{Research Paper Title}
+
+% AUTHORS
+\input{authors}
+
+\maketitle
+
+% ---------------------------------------------
+% ABSTRACT
+% ---------------------------------------------
+\input{sections/section0-abstract}
+
+% ---------------------------------------------
+% KEYwORDS
+% ---------------------------------------------
+\begin{IEEEkeywords}
+keyword1, keyword2, keyword3
+\end{IEEEkeywords}
+
+% ---------------------------------------------
+% SECTION 1: INTRODUCTION
+% ---------------------------------------------
+\input{sections/section1-intro}
+
+% ---------------------------------------------
+% SECTION 2: LITERATURE REVIEW
+% ---------------------------------------------
+\input{sections/section2-literature-review}
+
+% ---------------------------------------------
+% SECTION 3: RESEARCH METHODOLOGY
+% ---------------------------------------------
+\input{sections/section3-research-methodology}
+
+% ---------------------------------------------
+% SECTION 4: [ADD THE SECTION NAME]
+% ---------------------------------------------
+\input{sections/section4}
+
+% ---------------------------------------------
+% SECTION 5: [ADD THE SECTION NAME]
+% ---------------------------------------------
+\input{sections/section5}
+
+% ---------------------------------------------
+%  SECTION 6: RESULTS AND DISCUSSION
+% ---------------------------------------------
+\input{sections/section6-results-discussion}
+
+% ---------------------------------------------
+%  SECTION 7: CONCLUSION
+% ---------------------------------------------
+\input{sections/section7-conclusion}
+
+% ---------------------------------------------
+% REFERENCES
+% ---------------------------------------------
+
+% \section*{References} - this needs to be commented out.
+\balance
+\bibliographystyle{IEEEtran}
+\bibliography{bibliography/references}
+
+\end{document}
